@@ -346,3 +346,137 @@ img {
    position: relative;
    margin-top: 50px;
 }
+
+
+/**--------------**/
+
+.col-lg-51 {
+   -ms-flex: 0 0 41.666667%;
+   flex: 0 0 48.666667%;
+   max-width: 48.666667%;
+}
+
+.col-lg-71 {
+
+   -ms-flex: 0 0 58.333333%;
+   flex: 0 0 58.333333%;
+   max-width: 58.333333%;
+}
+
+
+.row1 {
+    display: -ms-flexbox;
+    display: flex;
+
+
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.basic-11 .image-container1 img {
+   margin-left: 20%;
+   border-radius: 0.25rem;
+   transition: all 0.3s;
+}
+.img-fluid1 {
+   max-width: 100%;
+   height: auto;
+}
+img {
+   vertical-align: middle;
+   border-style: none;
+}
+
+.basic-11 .image-container1 {
+   overflow: hidden;
+   border-radius: 0.25rem;
+}
+
+
+.section__header1 {
+   margin: 0 auto 40px;
+   width: 100%;
+   max-width: 900px;
+   text-align: center;
+}
+
+.section__title1 {
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #333;
+   font-size: 30px;
+   text-align: center;
+}
+
+.section__title1::after {
+   content: "";
+   display: block;
+   height: 3px;
+   width: 60px;
+   background-color: rgb(255, 2, 2);
+   margin: 10px auto 30px;
+}
+
+/**-----------------------------------------**/
+
+
+.about {
+   background: #eab5b5;
+   margin-top: 60px;
+   padding: 50px 0;
+}
+
+.about .titlepage {
+   text-align: left;
+   padding: 0;
+}
+
+.about .titlepage h2 {
+   color: #fff;
+   margin-bottom: 20px;
+}
+
+.about .titlepage p {
+   color: #fff;
+   font-size: 22px;
+   line-height: 28px;
+   font-weight: 500;
+   padding-bottom: 30px;
+}
+
+.about_text {
+   max-width: 539px;
+   width: 100%;
+   float: right;
+}
+
+.about_img {
+   max-width: 615px;
+   width: 100%;
+   float: left;
+}
+
+.about_img figure {
+   margin: 0;
+}
+
+.about_img figure img {
+   width: 100%;
+   margin-left: 30%;
+}
+
+
+.row2 {
+   display: -ms-flexbox;
+   display: flex;
+
+
+ 
+   margin-left: 15%;
+}
+
+.d_flex {
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+}
