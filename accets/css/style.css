@@ -5,6 +5,8 @@ body  {
          line-height: 1.6;
          color: #333;
 
+         overflow-x:hidden;
+
 }
 
 *,
@@ -367,7 +369,7 @@ img {
 .row1 {
     display: -ms-flexbox;
     display: flex;
-
+margin: 3%;
 
     margin-right: -15px;
     margin-left: -15px;
@@ -421,7 +423,7 @@ img {
 
 
 .about {
-   background: #eab5b5;
+   background: #e19595;
    margin-top: 60px;
    padding: 50px 0;
 }
@@ -479,4 +481,88 @@ img {
    display: flex;
    align-items: center;
    flex-wrap: wrap;
+}
+
+.plus{
+   height: 100vh;
+   background-color: #fff;
+
+}
+.dd{
+   width: 80%;
+   margin: 0 auto;
+}
+.dd_row{
+   display: flex;
+   justify-content: space-between;
+}
+.dd_row_item{
+   width: 30%;
+   padding: 5px 10px;
+}
+.dd_row_ph{
+   text-align: center;
+}
+.dd_row_zag{
+   color: #000000;
+   font-size: 32px;
+   text-align: center;
+}
+.dd_row_text{
+   color: #000000;
+   text-align: center;
+   font-size: 20px;
+}
+
+
+
+.basic-111 .image-container11 img {
+   margin-right: 20%;
+   border-radius: 0.25rem;
+   transition: all 0.3s;
+   margin-bottom: 10%;
+}
+.img-fluid11 {
+   max-width: 100%;
+   height: auto;
+}
+img {
+   vertical-align: middle;
+   border-style: none;
+}
+
+.basic-111 .image-container11 {
+   overflow: hidden;
+   border-radius: 0.25rem;
+}
+
+.section__title11 {
+   font-weight: 700;
+   text-transform: uppercase;
+   color: #333;
+   font-size: 30px;
+   text-align: center;
+   margin-top: 5%;
+}
+
+
+.section__title11::after {
+   content: "";
+   display: block;
+   height: 3px;
+   width: 60px;
+   background-color: rgb(255, 2, 2);
+   margin: 10px auto 30px;
+}
+
+
+.col-lg-52 {
+margin-left: 9%;
+   max-width: 38.666667%;
+}
+
+.col-lg-72 {
+margin-left: 8%;
+  
+   max-width: 58.333333%;
 }
